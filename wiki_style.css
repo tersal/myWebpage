@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+#random-art {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    position: relative;
+    text-align: center;
+}
+
+.search-button {
+    position: relative;
+    width: 50px;
+    background: gray;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text-box {
+    border-radius: 5px;
+    width: 30%;
+}
+
+#text-cards{
+    padding-top: 20px;
+}

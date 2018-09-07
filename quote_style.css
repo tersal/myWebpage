@@ -1,0 +1,38 @@
+h1 {
+    font-family: "Monotype Corsiva";
+}
+
+.quote-box {
+    background-color: black;
+    padding: 50px;
+    margin: 5px auto 20px auto;
+    border-radius: 50px;
+    position: relative;
+    width: 500px;
+}
+
+.main-quote {
+    font-family: "Monotype Corsiva";
+    font-size: 200%;
+    padding: 20px;
+    color: white;
+}
+
+.quote-author {
+    font-size: 150%;
+    font-family: "Helvetica";
+    text-align: right;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#another-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Monotype Corsiva";
+    font-size: 30px;
+}
+
+#tweet-button {
+    margin-top: 10px;
+}

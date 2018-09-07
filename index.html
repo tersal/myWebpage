@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Tersal: My Personal Webpage</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
@@ -16,8 +17,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Myself</a>
                     </li>
+                    <li>
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Some Examples</a>
+                        <a class="nav-link" href="#">Some Web Examples</a>
                     </li>
                     <li>
                         <a class="nav-link" href="#">Contact</a>
@@ -25,11 +29,114 @@
                 </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container bg-light rounded">
             <div class="row justify-content-center">
-                
+                <div class="col-8">
+                    <section id="firstSec">
+                        <h2 class="text-center">My quick and dirty Webpage</h2>
+                    </section>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <p class="text-center">First of all, I want to clarify that I'm not an expert in frontend development, still in the process of learning and this was the best webpage that I was able to do in two days just using Bootstrap and jQuery (all by hand). I will improve, I promise.</p>
+                    <p class="text-center">I have more experience in the next things:</p>
+                    <div class="d-flex justify-content-center">
+                        <ul>
+                            <li>Old good C/C++</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                            <li>Linux</li>
+                        </ul>
+                    </div>
+                    <p class="text-center">Currently I'm learning more about Web related topics, I really enjoy learning and I like to do things in the best way possible</p>
+                    <p class="text-center">(Or at least the best way that I'm aware of)</p>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" style="width: 100%; height: auto;" src="squirrel.jpg" alt="Just a squirrel eating a peanut">
+                        <div class="card-body">
+                            <p class="card-text">Obviously this is not me, it is just a squirrel eating a peanut that I found in Wikipedia</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="container bg-light rounded top-buffer">
+                <div class="row justify-content-center">
+                    <h2>Some of my professional experience</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="gps_module.jpg" alt="A GPS module">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Global Sight</h5>
+                                <p class="card-text text-center">My first job was in the development of software for a company focused in the security sourveillance for the public transportation</p>
+                                <p class="card-text text-center">The video stream and data location was transmitted through the mobile network</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Linux</li>
+                                    <li class="list-group-item">Gstreamer</li>
+                                    <li class="list-group-item">Python</li>
+                                    <li class="list-group-item">OpenCV</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="head_unit.jpg" alt="A car head unit">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Delphi (now Aptiv)</h5>
+                                <p class="card-text text-center">Worked in the development of media modules for Chrysler head units. Ranging from USB to Bluetooth.</p>
+                                <p class="card-text text-center">Most of the development was in embedded Linux or QNX</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">QNX</li>
+                                    <li class="list-group-item">C/C++</li>
+                                    <li class="list-group-item">Unix Shell</li>
+                                    <li class="list-group-item">Dynamic Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="amplifier.jpeg" alt="An automotive amplifier">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Harman International</h5>
+                                <p class="card-text text-center">Development of software modules for Ford audio amplifiers.</p>
+                                <p class="card-text text-center">The development was made using RTOS and handling the communication through CAN messages in the vehicle.</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Static Analysis</li>
+                                    <li class="list-group-item">CAN</li>
+                                    <li class="list-group-item">Continuous Integration</li>
+                                    <li class="list-group-item">Unit Testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>           
+            </div>
+        </div>
+        <div class="container bg-light rounded top-buffer">
+            <div class="row justify-content-center">
+                <h2>Some small webpages</h2>
+            </div>
+        </div>
+        
+        <footer class="bg-dark">
+            <div class="container justify-content-center">
+                <p class="text-white-50 text-center">Tersal 2018</span>
+            </div>
+        </footer>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
