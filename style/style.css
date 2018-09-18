@@ -35,11 +35,34 @@ nav {
     background-color: #575151;
     overflow: hidden;
     position: fixed;
-    left: -1%;
+    left: -8%;
     top: 40%;
     border-radius: 5px;
     width: 9%;
     white-space: nowrap;
+    animation-name: slide-in;
+    animation-duration: 2s;
+}
+
+nav:hover {
+    animation-name: slide-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-out {
+    100% {
+        left: -1%;
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        left: -1%;
+    }
+    100% {
+        left: -8%;
+    }
 }
 /*
  * Sections
