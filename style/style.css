@@ -2,21 +2,27 @@ body {
 	background-color: black;
 }
 
-nav {
-    background-color: #575151;
-    overflow: hidden;
-    position: fixed;
-    top: 40%;
-    border-radius: 5px;
-    width: 8%
+/**
+ * Configuration of the navbar
+ */
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li a {
-    padding: 20px;
-    color: white;
+    padding: 3%;
     text-decoration: none;
     display: inline-block;
     width: 100%;
+    color: white;
 }
 
 li a:hover {
@@ -25,16 +31,30 @@ li a:hover {
     color: white;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+nav {
+    background-color: #575151;
+    overflow: hidden;
+    position: fixed;
+    top: 40%;
+    border-radius: 5px;
+    width: 2%;
 }
 
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav:hover {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes slide {
+    100% {
+        width: 10%;
+    }
+}
+
+/*
+ * Sections
+ */
 
 section {
     width: 80%;
@@ -94,4 +114,8 @@ footer {
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.top-buffer {
+	margin-top: 20px;
 }
